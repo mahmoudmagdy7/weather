@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 , maximum-scale=1.0, user-scalable=no">
   <link rel="icon" type="image/x-icon" href="./images/favicon.png">
   <title>the.weather</title>
 
@@ -97,11 +97,13 @@
 
 
         <div class="data d-flex align-items-end">
-          <h2 class="degree"></h2>
-          <div id="locaion-data" class="ms-2">
-            <h3 id="location" class="fs-1"></h3>
-            <p id="time" class="m-0">
-            </p>
+          <div>
+            <h2 class="degree"></h2>
+            <div id="locaion-data" class="ms-2">
+              <h3 id="location" class="fs-2"></h3>
+              <p id="time" class="m-0">
+              </p>
+            </div>
           </div>
           <div id="weather-data" class="ms-3">
             <img id='mood-icon' class=" fs-1 mb-2"></i>
@@ -112,14 +114,14 @@
     </section>
     <!-- right section -->
     <aside class="vh-100 text-center px-5 col-lg-4">
-      <div class="input-group flex-nowrap align-items-center mt-5">
+      <div class="input-group flex-nowrap align-items-center m-md-5">
         <i class="input-group-text  bg-transparent border-0 fa-solid fa-magnifying-glass fs-3"></i>
         <input type="search" id='searchInput' placeholder="Another Location" class="border-0 bg-transparent">
       </div>
       <div class='days-container mb-4'>
         <ul class="list-unstyled text-start">
           <li class="mb-3">
-            <p id='nextDay' class="fs-3 text-white-50"></p>
+            <p id='nextDay' class="fs-3 text-white-50 mb-0"></p>
             <div class="d-flex align-items-end">
               <h3 id='nextMaxtemp_c' class="day"></h3>
               <div><img id='nextIcon'></img>

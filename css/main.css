@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
 :root {
   overflow-x: hidden !important;
 }
@@ -7,7 +7,7 @@ main {
   background-color: #241e2056;
   background-size: cover;
   transition: background-image 1s;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 /* left section */
 .main-section {
@@ -47,16 +47,16 @@ aside {
   padding-bottom: 20px;
   padding-right: 30px;
 }
-input{
-  color:rgba(255, 255, 255, 0.5)
+input {
+  color: rgba(255, 255, 255, 0.5);
 }
 input:focus,
 input::placeholder {
   outline: none;
-  color: rgba(255, 255, 255, 0.5)
+  color: rgba(255, 255, 255, 0.5);
 }
 aside div .input-group-text path {
-  fill:rgb(83, 83, 83) !important
+  fill: rgb(83, 83, 83) !important;
 }
 .loading {
   width: 100vw;
@@ -65,12 +65,22 @@ aside div .input-group-text path {
   background-color: #fff;
   position: fixed;
 }
-#nextIcon,#afterIcon{
-  width:40px;
+#nextIcon,
+#afterIcon {
+  width: 40px;
 }
 @media screen and (max-width: 626px) {
   .main-section {
-    padding-left: 1.5rem;
+    padding-left: 3rem;
+    padding-bottom: 1.3rem;
+  }
+  .degree {
+    font-size: 6rem;
+    line-height: 70px;
+  }
+
+  input {
+    font-size: 18px;
   }
 }
 
