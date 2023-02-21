@@ -24,6 +24,7 @@ aside {
   color: white;
   background: rgba(0, 0, 0, 0.215);
   backdrop-filter: blur(4px);
+  /* height: 100vh; */
 }
 
 .input-group {
